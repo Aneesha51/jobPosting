@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <section class="flex">
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <a href="index.html" class="logo"><i class="fas fa-briefcase"></i>JobHunter.</a>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="jobs.html">All Jobs</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="login.html">Account</a>
+            </nav>
+
+            <a href="postjob.html" class="btn" style="margin-top: 0;">post job</a>
+
+        </section>
+
+    </header>
+
+    <!-- header section ends  -->
+
+    <!--  contact section starts-->
+
+    <div class="section-title">contact us</div>
+
+    <section class="contact">
+
+        <div class="box-container">
+
+            <div class="box">
+            <i class="fas fa-phone"></i>
+            <a href="tel:0765557885">076-555-7885</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:aneeshrangan51@gmail.com">aneeshrangan51@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <a href="#">Johannesburg, South Africa</a>
+        </div>
+    </div>
+
+    <form action="" method="post">
+        <h3>send us a messsage</h3>
+        <div class="flex">
+            <div class="box">
+                <p>name <span>*</span></p>
+                <input type="text" name="name" required maxlength="20" placeholder="enter your name" class="input">
+            </div>
+            <div class="box">
+                <p>email <span>*</span></p>
+                <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="input">
+            </div>
+            <div class="box">
+                <p>number <span>*</span></p>
+                <input type="number" name="number" required min="0" max="9999999999" maxlength="20" placeholder="enter your number" class="input">
+            </div>
+            <div class="box">
+                <p>role <span>*</span></p>
+               <select name="role" required class="input">
+                <option value="employee">job seeker (employee)</option>
+                <option value="employee">job provider (employer)</option>
+               </select>
+            </div>
+
+        </div>
+        <p>message <span>*</span></p>
+        <textarea name="message" class="input" required maxlength="1000" 
+        placeholder="please enter your message" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" name="send" class="btn">
+    </form>
+    </section>
+    <!--  contact section ends-->
+
+
+<!--  footer section starts  -->
+
+<footer class="footer">
+
+    <section class="grid">
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="index.html"><i class="fas fa-angle-right"> </i>Home</a>
+            <a href="about.html"><i class="fas fa-angle-right"> </i>About</a>
+            <a href="jobs.html"><i class="fas fa-angle-right"> </i>All Jobs</a>
+            <a href="contact.html"><i class="fas fa-angle-right"> </i>Contact Us</a>
+            <a href="#"><i class="fas fa-angle-right"> </i>Filter Search</a>
+        </div>
+
+        <div class="box">
+            <h3>Extra links</h3>
+            <a href="#"><i class="fas fa-angle-right"> </i>Account</a>
+            <a href="login.html"><i class="fas fa-angle-right"> </i>Login</a>
+            <a href="register.html"><i class="fas fa-angle-right"> </i>Register</a>
+            <a href="#"><i class="fas fa-angle-right"> </i>Post Job</a>
+            <a href="#"><i class="fas fa-angle-right"> </i>Dashboard</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-f"> </i>Facebook</a>
+            <a href="#"><i class="fab fa-twitter"> </i>Twitter</a>
+            <a href="#"><i class="fab fa-instagram"> </i>Instagram</a>
+            <a href="#"><i class="fab fa-linkedin"> </i>Linkedin</a>
+        </div>
+    </section>
+
+    <div class="credit">
+        &copy; copyright @ 2024 by <span>JobHunter.</span>
+        | all rights reserved!
+    </div>
+
+</footer>
+
+<!--  footer section ends  -->
+
+    <!--custome js file link  -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
